@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#9cc2ff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	line-height:1.8em;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color:#ff5900
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:green;
+}
+a:visited{
+	color:#5f03a6
+}
+
+.container{
+	width:85%;
+	margin:auto;
+}
+
+.box-1{
+	background-color:#333;
+	color:#fff;
+	border:5px red solid;
+	border-bottom-width:13px;
+	padding:22px;
+	margin:30px;
+	font-family: 'Playball', cursive;
+}
+
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	letter-spacing:0.2em;
+	word-spacing:1em;
+	text-align:center;
+	font-family: 'Oi', cursive;
+}
+
+.box-2{
+	border:5px dashed #000000;
+	padding:20px;
+	margin:20px 0;
+	text-align:center;
+	background-color:#99efff;
+	font-family: 'Audiowide', cursive;
+}
+.chapitre{
+	border:2px #bb00ff dotted;
+	padding:10px;
+	border-radius:10px;
+}
+
+.chapitre h3{
+	text-align:center;
+	text-decoration:underline;
+	letter-spacing:0.2em;
+}
+.chapitre ol{
+	padding:20px;
+	text-align:center;
+}
+.chapitre li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('check.pnj')
+}

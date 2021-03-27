@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url('gdm2.jpg');
+	background-size:cover;
+	background-repeat: no-repeat ;
+	background-position: 50% 28% ;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	line-height:1.8em;
+	margin:0;
+}
+.guy{
+	
+	color:#333;
+	border:5px #332500 dotted;
+	padding:22px;
+	margin:30px;
+	text-align:center;
+}
+.guy h1{
+	font-family:Arial Black , serif;
+	font-weight:900;
+	font-style:italic;
+	text-decoration:underline;
+	letter-spacing:0.1em;
+	word-spacing:0.775em;
+}
+.guy p{
+	font-weight:800;
+	word-spacing:0.5em;
+	font-size:18px;	
+}
+.guy2{
+	color:#211801;
+	border:2px #bf8c04 solid;
+	padding:22px;
+	margin:30px;
+	text-align:center;
+	font-family: 'Nova Mono', monospace;
+}
+.moup{
+	color:white;
+	border:2px #ff0048 dashed;
+	padding:22px;
+	margin:30px;
+	text-align:center;
+	font-family: 'Bree Serif', serif;
+}
+.link1{
+	text-decoration: none;
+	color:#592103;
+	
+	text-align:left;
+	
+}
+.link2{
+	text-decoration: none;
+	color:#592103;
+	
+	text-align:center;
+	
+}
+.link3{
+	text-decoration: none;
+	color:#592103;
+	
+	text-align:right; 
+	
+}
